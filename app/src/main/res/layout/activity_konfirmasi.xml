@@ -28,7 +28,16 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"/>
-    <LinearLayout
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -211,6 +220,9 @@
             android:textColor="@color/black"/>
 
     </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -21,11 +21,11 @@ public class Konfirmasi extends AppCompatActivity {
     public static final String Extra_jk = "com.programmer.utspraktik_if6_10119211_badras.jk";
     public static final String Extra_hub = "com.programmer.utspraktik_if6_10119211_badras.hub";
     public static final String Extra_status = "com.programmer.utspraktik_if6_10119211_badras.status";
-    public static final String ExtraTes = "com.programmer.utspraktik_if6_10119211_badras.opsiTes";
+    public static final String Extra_tes = "com.programmer.utspraktik_if6_10119211_badras.opsiTes";
 
     private Dialog customDialog;
 
-    @Override
+     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_konfirmasi);
@@ -33,21 +33,21 @@ public class Konfirmasi extends AppCompatActivity {
         Intent intent = getIntent();
         Intent intent2 = new Intent(this,MainActivity.class);
 
-        String nik = intent2.getStringExtra(MainActivity.Extra_nik);
-        String nama = intent2.getStringExtra(MainActivity.Extra_NAMA);
-        String tgl = intent2.getStringExtra(MainActivity.Extra_tgl);
-        String tgl2 = intent2.getStringExtra(MainActivity.Extra_tgl2);
-        String jk = intent2.getStringExtra(MainActivity.Extra_jk);
-        String hub = intent2.getStringExtra(MainActivity.Extra_hub);
-        String tes = intent2.getStringExtra(MainActivity.ExtraTes);
+        String nik = intent.getStringExtra(MainActivity.Extra_nik);
+        String nama = intent.getStringExtra(MainActivity.Extra_NAMA);
+        String jk = intent.getStringExtra(MainActivity.Extra_jk);
+        String tgl = intent.getStringExtra(MainActivity.Extra_tgl);
+        String tgl2 = intent.getStringExtra(MainActivity.Extra_tgl2);
+        String hub = intent.getStringExtra(MainActivity.Extra_hub);
+        String ts = intent.getStringExtra(MainActivity.Extra_tes);
 
         TextView tvNik = findViewById(R.id.j_nik);
         TextView tvNama = findViewById(R.id.j_nama);
         TextView tvTgl = findViewById(R.id.j_tgl);
+        TextView tvTgl2 = findViewById(R.id.j_tgl2);
         TextView tvHub = findViewById(R.id.j_hub);
         TextView tvJk = findViewById(R.id.j_jk);
-        TextView tvTgl2 = findViewById(R.id.j_tgl2);
-        TextView tvTes = findViewById(R.id.j_tes);
+        TextView tvTs = findViewById(R.id.j_tes);
         Button btn_simpan= findViewById(R.id.btn_simpan);
         Button btn_ubah= findViewById(R.id.btn_ubah);
 
@@ -56,11 +56,12 @@ public class Konfirmasi extends AppCompatActivity {
         tvNik.setText(nik);
         tvNama.setText(nama);
         tvTgl.setText(tgl);
+        tvTgl2.setText(tgl2);
         tvJk.setText(jk);
-        tvTes.setText(tes);
+        tvTs.setText(ts);
         tvHub.setText(hub);
         initCustomDialog();
-        tvTgl2.setText(tgl2);
+
         btn_simpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,10 +76,11 @@ public class Konfirmasi extends AppCompatActivity {
                 intent2.putExtra(Extra_nik,nik);
                 intent2.putExtra(Extra_NAMA,nama);
                 intent2.putExtra(Extra_tgl,tgl);
+                intent2.putExtra(Extra_tgl2,tgl2);
                 intent2.putExtra(Extra_jk,jk);
                 intent2.putExtra(Extra_hub,hub);
-                intent2.putExtra(Extra_tgl2,tgl2);
-                intent2.putExtra(ExtraTes,tes);
+                intent2.putExtra(Extra_tes,ts);
+
 //                if (hub == "Orang Tua"){
 //                    intent2.putExtra(Extra_hub,"hbg_ort");
 //                }

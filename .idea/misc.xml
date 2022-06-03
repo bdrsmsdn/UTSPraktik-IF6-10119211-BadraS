@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CONTOHAKB/UTSPraktik-IF6-10119211-BadraS/app/src/main/res/drawable/bg_dialog.xml" value="0.157" />
+        <entry key="..\:/CONTOHAKB/UTSPraktik-IF6-10119211-BadraS/app/src/main/res/drawable/ic_date.xml" value="0.157" />
+        <entry key="..\:/CONTOHAKB/UTSPraktik-IF6-10119211-BadraS/app/src/main/res/layout/activity_konfirmasi.xml" value="0.20416666666666666" />
+        <entry key="..\:/CONTOHAKB/UTSPraktik-IF6-10119211-BadraS/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/CONTOHAKB/UTSPraktik-IF6-10119211-BadraS/app/src/main/res/layout/dialog_simpan.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/UTSPraktikIF610119211BadraS/app/src/main/res/layout/activity_konfirmasi.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/UTSPraktikIF610119211BadraS/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/UTSPraktikIF610119211BadraS/app/src/main/res/layout/dialog_simpan.xml" value="0.10989583333333333" />

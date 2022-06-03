@@ -2,10 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="20dp"
     android:paddingVertical="20dp"
     android:orientation="vertical"
-    android:background="@drawable/bg_dialog">
+    android:background="@drawable/bg_dialog"
+    android:backgroundTint="@color/white">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -29,7 +35,8 @@
         android:layout_marginTop="20dp"
         android:paddingHorizontal="25dp"
         android:textAlignment="center"
-        android:text="Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat."/>
+        android:text="Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat."
+        android:textColor="#B88E8E"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_ok"
@@ -41,6 +48,8 @@
         android:text="Ok"
         android:layout_marginHorizontal="30dp"
         android:textColor="@color/white"/>
+</LinearLayout>
+
 
 
 </LinearLayout>
