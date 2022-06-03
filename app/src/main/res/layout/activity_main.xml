@@ -369,18 +369,16 @@
                         android:buttonTint="#16A75C"/>
                     />
                 </RadioGroup>
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:orientation="horizontal">-->
-
-<!--                    <CheckBox-->
-<!--                        android:id="@+id/checkbox"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:hint="Dengan ini saya menyetujui bahwa data yang akan saya isikan adalah benar." />-->
-<!--                </LinearLayout>-->
             </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#16A75C"
+            android:textColor="#B88E8E"
+            android:text="Dengan ini saya menyetujui bahwa data yang akan saya isikan adalah benar"
+            android:textSize="12sp"
+            />
         </LinearLayout>
     </ScrollView>
     <LinearLayout

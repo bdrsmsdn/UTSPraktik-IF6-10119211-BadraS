@@ -237,7 +237,7 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/bg_button"
             android:layout_gravity="bottom"
-            android:text="Simpan"
+            android:text="Cek Hasil Tes"
             android:textColor="@color/white"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_ubah"
