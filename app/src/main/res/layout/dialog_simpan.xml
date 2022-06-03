@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Berhasil Di Simpan"
+        android:text="Berhasil Mendapatkan Akses"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="18sp"
@@ -35,7 +35,7 @@
         android:layout_marginTop="20dp"
         android:paddingHorizontal="25dp"
         android:textAlignment="center"
-        android:text="Terima kasih, laporan Anda membantu kami dalam melakukan penanganan kasus secara tepat."
+        android:text="Silakan tap tombol di bawah untuk memulai mengisi form Lapor Kesehatan Harian"
         android:textColor="#B88E8E"/>
 
     <androidx.appcompat.widget.AppCompatButton
